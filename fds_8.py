@@ -17,7 +17,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
 
-data = pd.read_csv('/content/drive/MyDrive/Energy_consumption.csv')
+data = pd.read_csv('Energy_consumption.csv')
 
 print(data.isnull().sum())
 
